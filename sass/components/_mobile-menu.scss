@@ -7,7 +7,7 @@
 
   display: none;
   border: none;
-  @media screen and (min-width:480px) and (max-width:767px){
+  @media screen  and (max-width:767px){
     display: inline-block;
   }
 }
@@ -158,17 +158,17 @@ color: #212121;
 text-decoration: none;
 &:hover,
 &focus{
-color: aqua;
+color: $akcent-color;
 }
 }
-@media screen and (min-width: 480px) and (max-width: 7670px){
+@media screen and (min-width: 480px) and (max-width: 767px){
 .test_img{
   display:  block;
   max-width: 100%;
   height: auto;
 }
 }
-@media screen and (min-width: 480px) and (max-width: 7670px){
+@media screen and (min-width: 480px) and (max-width: 767px){
   .test_img{
     display:  block;
     width: 354px;

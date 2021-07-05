@@ -191,7 +191,7 @@ header {
   height: 16px;
   outline: none;
   fill: black;
-  padding: 0;
+  padding-top: 8px;
   margin: 0;
 }
 
@@ -553,7 +553,7 @@ textarea::placeholder {
           align-items: center;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .header-menu {
     display: none;
   }
@@ -627,14 +627,13 @@ textarea::placeholder {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .header-navigation {
     padding-top: 16px;
-    margin-top: 16px;
     margin-bottom: 16px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .header-navigation {
-    width: 768px;
+    width: 100vw;
     -ms-flex-pack: distribute;
         justify-content: space-around;
     padding: 0;
@@ -1665,7 +1664,7 @@ address {
   border: none;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .menu-toggle.js-open-menu {
     display: inline-block;
   }
@@ -1817,10 +1816,10 @@ address {
 }
 
 .link:hover, .linkfocus {
-  color: aqua;
+  color: #2196f3;
 }
 
-@media screen and (min-width: 480px) and (max-width: 7670px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .test_img {
     display: block;
     max-width: 100%;
@@ -1828,7 +1827,7 @@ address {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 7670px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
   .test_img {
     display: block;
     width: 354px;
