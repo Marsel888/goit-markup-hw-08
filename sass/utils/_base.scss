@@ -1,6 +1,7 @@
 
 body{
   overflow-x: hidden;
+ 
 }
 
 
@@ -14,10 +15,13 @@ overflow-x: hidden;
     padding: 0 15px;
     box-sizing: border-box;
     margin: 0 auto;
-    @media screen and (min-width: 480px) and (max-width: 767px){}
+    @media screen and (min-width: 480px) and (max-width: 767px){
+      width: 100vw;
+    }
 
     @media screen and (min-width: 768px) and (max-width: 1200px){
      padding: 0;
+     width: 100vw;
     }
 }
   
@@ -25,6 +29,10 @@ overflow-x: hidden;
   
   .section-number {
     padding-top: 94px;
+    @media screen and (min-width: 480px) and (max-width: 767px){
+      padding-top: 60px;
+    }
+
     @media screen and (min-width: 768px) and (max-width: 1200px){
       padding-top: 60px;
      }
@@ -49,6 +57,7 @@ overflow-x: hidden;
     @media screen and (min-width: 480px) and (max-width: 1200px){
       padding: 0;
       width: 100vw;
+      padding-top: 60px;
     }
   }
   .border {

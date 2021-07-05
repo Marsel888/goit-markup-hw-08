@@ -7,8 +7,10 @@
 
   display: none;
   border: none;
-  @media screen  and (max-width:767px){
+  @media screen and (min-width:480px) and (max-width:767px){
     display: inline-block;
+    margin-top: 16px;
+   
   }
 }
 
@@ -17,13 +19,16 @@
   top: 0;
   left: 0;
   width: 100vw;
-  height: 796px;
+  
 pointer-events: none;
   background-color: #ffff;
+ 
+  overflow-y: hidden;
 opacity: 0;
   transform: scale(0);
   transition: opacity 500ms ease-in-out, transform 500ms linear;
- 
+  z-index: 3;
+ position: fixed;
 }
 
 .menu-container.is-open {
@@ -33,9 +38,10 @@ transform: scale(1);
 pointer-events: visible;
 
 @media screen and (min-width:480px) and (max-width:767px){
- 
+
   z-index: 2;
   position: fixed;
+height: 100vh;
 }
 }
 
@@ -49,6 +55,8 @@ pointer-events: visible;
   background-color: #fff;
   @media screen and (min-width:480px) and (max-width:767px){
     display: inline-block;
+   
+    
   }
 }
 
@@ -63,6 +71,8 @@ pointer-events: visible;
   display: none;
   @media screen and (min-width:480px) and (max-width:767px){
     display: inline-block;
+    
+   
   }
 }
 
@@ -106,8 +116,8 @@ pointer-events: visible;
 
 .mobile-menu-nav{
 padding-left: 40px;
-  padding-top: 300px;
-  margin: 0;
+  margin-top: 300px;
+  
   &__tel{
     font-family: Roboto;
 font-style: normal;
@@ -158,17 +168,17 @@ color: #212121;
 text-decoration: none;
 &:hover,
 &focus{
-color: $akcent-color;
+color: #2196F3;
 }
 }
 @media screen and (min-width: 480px) and (max-width: 767px){
 .test_img{
   display:  block;
-  max-width: 100%;
+  width: 450px;
   height: auto;
 }
 }
-@media screen and (min-width: 480px) and (max-width: 767px){
+@media screen and (min-width: 768px) and (max-width: 1200px){
   .test_img{
     display:  block;
     width: 354px;
