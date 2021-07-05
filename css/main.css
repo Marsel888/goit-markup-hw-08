@@ -32,6 +32,7 @@ header {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .container {
     width: 100vw;
+    padding: 0 15px;
   }
 }
 
@@ -944,9 +945,16 @@ textarea::placeholder {
 
 @media screen and (min-width: 480px) and (max-width: 1200px) {
   .team {
-    width: 100vw;
     text-align: center;
     padding-bottom: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
   }
 }
 
@@ -959,7 +967,6 @@ textarea::placeholder {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .technologies {
     display: block;
-    width: 100vw;
   }
 }
 
@@ -1073,6 +1080,15 @@ textarea::placeholder {
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .our-clients__team {
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
     margin-bottom: 30px;
     padding-bottom: 0;
   }
@@ -1100,7 +1116,7 @@ textarea::placeholder {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
 }
 
@@ -1130,7 +1146,7 @@ textarea::placeholder {
 @media screen and (min-width: 480px) and (max-width: 767px) {
   .our-clients-permanent__client {
     width: 210px;
-    margin: 0 15px 0 10px;
+    margin: 0 15px 30px 10px;
   }
 }
 
@@ -1547,6 +1563,7 @@ address {
     display: block;
     width: 100vw;
     margin: 0;
+    padding-bottom: 60px;
   }
 }
 

@@ -9,8 +9,16 @@
     margin-bottom: 0;
     @media screen and (min-width: 480px) and (max-width: 767px){
       // width: 100vw;
-      // text-align: center;
-      
+      text-align: center;
+      font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 33px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.03em;
       margin-bottom: 30px;
       padding-bottom: 0;
     }
@@ -26,7 +34,7 @@
       flex-wrap: wrap;
       width: 100vw;
    justify-content: center;
-   margin-bottom: 60px;
+   margin-bottom: 30px;
  
       
     }
@@ -44,7 +52,7 @@
     @media screen and (min-width: 480px) and (max-width: 767px){
       
      width: 210px;
-     margin: 0 15px 0 10px;
+     margin: 0 15px 30px 10px;
     
 
      
