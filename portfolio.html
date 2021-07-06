@@ -14,7 +14,7 @@
     />
   </head>
   <body>
-    <header class="border">
+    <header  >
       <button
       class="menu-toggle js-open-menu"
       aria-expanded="false"
@@ -30,11 +30,17 @@
         
         </svg>
       </button>
+     <div class="mobile__menu__flex">
+     <div>
       <ul class="mobile-menu">
         <li class="mobile-menu__list"><a href="./index.html" class="link">Студия</a></li>
         <li class="mobile-menu__list"><a href="./portfolio.html" class="link">Портфолио</a></li>
         <li class="mobile-menu__list"><a href="" class="link">Контакты</a></li>
+      </div>
+      <div class="mobile__menu__flex_item">
+     
       
+
       </ul>
       <ul class="mobile-menu-nav">
         <li class="mobile-menu__item"> <a href="tel:+380934335464" class="mobile-menu-nav__tel"> +38 093 433 54 64 </a> </li>
@@ -47,17 +53,96 @@
         <li class="moile-menu-social-link__item"><a href="" class="moile-menu-social-link__social">Facebook</a></li>
         <li class="moile-menu-social-link__item"><a href="" class="moile-menu-social-link__social">LinkedIn</a></li>
       </ul>
+               </div>
+        </div>
+
+
+
+
     </div>
- 
+     
+
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal container">
+          <form action="">
+            <p class="modal__heading">Оставьте свои данные, мы вам перезвоним</p>
+            <div class="form-modal">
+            <label for="name" class="form-modal__label">Имя</label>
+            
+          
+
+            <input type="name" value="" id="name" class="form-modal__input">
+
+            <svg class="form-modal__icon"><use href="./sprite/modal.svg#icon-Vector" ></use>  </svg>
+
+          
+
+
+
+          </div> 
+          <div class="form-modal">
+            <label for="tel" class="form-modal__label">Телефон</label>
+
+
+            <input type="tel" id="tel" class="form-modal__input">
+
+
+            <svg class="form-modal__icon"><use href="./sprite/modal.svg#icon-mobile" ></use>  </svg>
+
+          </div>
+          <div class="div_form form-modal">
+            <label for="mail" class="form-modal__label">Почта</label>
+
+
+
+            <input type="mail" id="mail" class="form-modal__input">
+
+
+
+            <svg class="form-modal__icon"><use href="./sprite/modal.svg#icon-massager" ></use>  </svg>
+          </div>
+          
+            <label for="comment" class="modal-com">Коментарий</label >
+            
+            <textarea name="comment" id="comment" cols="10" rows="8" placeholder="Введите текст" class="modal-comment"></textarea>
+          
+            <a href="" class="buttom-modal" data-modal-close> <svg class="modal_x">  <use href="./sprite/modal_x.svg#icon-modal_x"></use></svg> </a>
+          
+              <label for="checkbox">
+                <div class="agreement-conditions">  
+              <input type="checkbox" id="checkbox" class="agreement-conditions__modal-checkbox">
+              
+              <span class="agreement-conditions__checkbox-icon"></span>
+            
+            
+              <div class="modal_span">
+                Соглашаюсь с рассылкой и принимаю <span class="dogovor"> Условия договора</span></div>
+              </div>
+              </label>
+          
+          
+
+            <button type="submit" class="modal_button"> Отправить</button>
+            
+           
+          
+          
+          </form>
+        </div>
+        
+         
+          
+      </div>
+      
       <nav class="header-navigation container">
         <a href="#" class="header-navigation__logo">
           <span class="header-navigation__web-logo">Web</span>Studio
         </a>
         <ul class=" header-menu">
           <li class="header-menu__list ">
-            <a href="./index.html" class="">Студия</a>
+            <a href="#" class="header-menu header-menu--color">Студия</a>
           </li>
-          <li class="header-menu__list"><a href="./portfolio.html" class="header-menu header-menu--color">Портфолио</a></li>
+          <li class="header-menu__list"><a href="./portfolio.html">Портфолио</a></li>
           <li class="header-menu__list"><a href="#">Контакт</a></li>
         </ul>
 
