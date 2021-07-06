@@ -29,9 +29,9 @@ header {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .container {
-    width: 100vw;
+    width: 480px;
     padding: 0 15px;
   }
 }
@@ -39,7 +39,7 @@ header {
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .container {
     padding: 0;
-    width: 100vw;
+    width: 768px;
   }
 }
 
@@ -47,7 +47,7 @@ header {
   padding-top: 94px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .section-number {
     padding-top: 60px;
   }
@@ -62,6 +62,7 @@ header {
 .section4 {
   background-color: var(--background-color-buttom);
   padding-bottom: 94px;
+  width: 100%;
 }
 
 .border {
@@ -72,7 +73,7 @@ header {
   padding-bottom: 94px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 1200px) {
+@media screen and (min-width: 320px) and (max-width: 1200px) {
   .section--padding-botom {
     display: none;
   }
@@ -83,7 +84,7 @@ header {
   padding-top: 94px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 1200px) {
+@media screen and (min-width: 320px) and (max-width: 1200px) {
   .our-clients {
     padding: 0;
     width: 100vw;
@@ -278,7 +279,7 @@ header {
   z-index: 2;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 320px) {
   .modal {
     width: 450px;
     position: fixed;
@@ -450,7 +451,7 @@ textarea::placeholder {
   margin: 0;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .modal_span {
     font-family: Roboto;
     font-style: normal;
@@ -474,7 +475,7 @@ textarea::placeholder {
   border-bottom: 1px solid var(--akcent-color);
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .dogovor {
     font-family: Roboto;
     font-style: normal;
@@ -493,7 +494,7 @@ textarea::placeholder {
   margin-left: 300px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .header-contact {
     display: none;
   }
@@ -568,7 +569,7 @@ textarea::placeholder {
           align-items: center;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .header-menu {
     display: none;
   }
@@ -639,7 +640,7 @@ textarea::placeholder {
           align-items: center;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .header-navigation {
     padding-top: 16px;
     margin-top: 16px;
@@ -769,10 +770,12 @@ textarea::placeholder {
   display: flex;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .our-advantages {
-    width: 480px;
+    width: 450px;
     display: block;
+    margin: 0 auto;
+    padding: 0;
   }
 }
 
@@ -782,6 +785,7 @@ textarea::placeholder {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     padding: 0;
+    margin: 0 auto;
   }
 }
 
@@ -790,7 +794,7 @@ textarea::placeholder {
   margin-right: 30px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .our-advantages__list {
     width: 450px;
     text-align: center;
@@ -856,6 +860,12 @@ textarea::placeholder {
   color: #212121;
 }
 
+@media screen and (min-width: 320px) and (max-width: 1200px) {
+  .our-advantages__our-pluses {
+    padding-top: 30px;
+  }
+}
+
 .our-advantages__tagline {
   font-size: 14px;
   font-weight: normal;
@@ -884,7 +894,7 @@ textarea::placeholder {
   display: flex;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .technologies {
     display: block;
   }
@@ -899,7 +909,7 @@ textarea::placeholder {
   background-color: white;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .technologies__list {
     display: block;
   }
@@ -943,10 +953,11 @@ textarea::placeholder {
   margin-bottom: 0;
 }
 
-@media screen and (min-width: 480px) and (max-width: 1200px) {
+@media screen and (min-width: 320px) and (max-width: 1200px) {
   .team {
+    width: 100%;
     text-align: center;
-    padding-bottom: 20px;
+    padding: 0;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -964,7 +975,7 @@ textarea::placeholder {
   display: flex;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .technologies {
     display: block;
   }
@@ -972,16 +983,24 @@ textarea::placeholder {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .technologies {
-    width: 100vw;
+    width: 100%;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     padding: 0;
+    padding-top: 30px;
   }
 }
 
 .technologies__list {
   margin-right: 30px;
   position: relative;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .technologies__list {
+    margin-top: 30px;
+    width: 450px;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -1078,7 +1097,7 @@ textarea::placeholder {
   margin-bottom: 0;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 1200px) {
   .our-clients__team {
     text-align: center;
     font-family: Roboto;
@@ -1105,14 +1124,14 @@ textarea::placeholder {
           justify-content: space-between;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .our-clients-permanent {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    width: 100vw;
+    width: 100%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -1124,7 +1143,7 @@ textarea::placeholder {
   .our-clients-permanent {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    width: 100vw;
+    max-width: 1000px;
     margin-bottom: 60px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1143,10 +1162,19 @@ textarea::placeholder {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .our-clients-permanent__client {
-    width: 210px;
-    margin: 0 15px 30px 10px;
+    -ms-flex-preferred-size: calc((100% - 15px * 4) / 2);
+        flex-basis: calc((100% - 15px * 4) / 2);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -1157,9 +1185,13 @@ textarea::placeholder {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+.our-clients-permanent__client__svg {
+  fill: #afb1b8;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .our-clients-permanent__client__svg {
-    width: 210px;
+    width: 100%;
     margin: 0;
   }
 }
@@ -1190,9 +1222,9 @@ textarea::placeholder {
           justify-content: space-between;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .footer {
-    width: 100vw;
+    width: 100%;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -1203,7 +1235,7 @@ textarea::placeholder {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .footer {
-    width: 100vw;
+    width: 768px;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     -ms-flex-pack: distribute;
@@ -1215,7 +1247,7 @@ textarea::placeholder {
   color: white;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .header-navigation__logo--color {
     text-align: center;
     width: 100vw;
@@ -1226,7 +1258,7 @@ textarea::placeholder {
   margin-top: 9px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .footer-list-mail-tel {
     text-align: center;
     width: 100vw;
@@ -1262,17 +1294,18 @@ textarea::placeholder {
   letter-spacing: 0.06em;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .join {
     text-align: center;
     width: 100vw;
-    padding-top: 30px;
+    padding-top: 60px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .join {
     text-align: center;
+    padding-top: 60px;
   }
 }
 
@@ -1283,7 +1316,7 @@ textarea::placeholder {
   padding-top: 20px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .icon-social-footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -1326,9 +1359,9 @@ textarea::placeholder {
   padding-top: 20px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .subscribe {
-    width: 480px;
+    width: 100vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1367,11 +1400,19 @@ textarea::placeholder {
   outline: none;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .subscribe__input {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    width: 450px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .subscribe__input {
     width: 450px;
   }
 }
@@ -1396,7 +1437,7 @@ address {
   color: var(--background-color);
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   address {
     text-align: center;
     width: 100vw;
@@ -1417,7 +1458,7 @@ address {
   padding-top: 91px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .our-work {
     width: 360px;
     -ms-flex-wrap: wrap;
@@ -1538,7 +1579,7 @@ address {
   color: #eeeeee;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .our-work-list:nth-child(4),
   .our-work-list:nth-child(5) {
     padding-top: 15px;
@@ -1558,7 +1599,7 @@ address {
   padding-bottom: 94px;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .card {
     display: block;
     width: 100vw;
@@ -1587,7 +1628,7 @@ address {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .card__list {
     width: 450px;
   }
@@ -1760,7 +1801,8 @@ address {
 .mobile-menu {
   list-style: none;
   text-decoration: none;
-  padding: 48px 0 0 40px;
+  padding-left: 40px;
+  padding-top: 48px;
   margin: 0;
   display: none;
 }
@@ -1803,7 +1845,6 @@ address {
 
 .mobile-menu-nav {
   padding-left: 40px;
-  margin-top: 300px;
 }
 
 .mobile-menu-nav__tel {
@@ -1857,11 +1898,12 @@ address {
   color: #2196F3;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .test_img {
     display: block;
     width: 450px;
     height: auto;
+    margin-top: 30px;
   }
 }
 
@@ -1873,12 +1915,21 @@ address {
   }
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
-  .technologies__list {
-    width: 450px;
-  }
-  .technologies__list img {
-    width: 450px;
-  }
+.mobile__menu__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+}
+
+.mobile__menu__flex_item {
+  padding-bottom: 48px;
 }
 /*# sourceMappingURL=main.css.map */

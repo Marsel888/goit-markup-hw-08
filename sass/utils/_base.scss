@@ -15,14 +15,14 @@ overflow-x: hidden;
     padding: 0 15px;
     box-sizing: border-box;
     margin: 0 auto;
-    @media screen and (min-width: 480px) and (max-width: 767px){
-      width: 100vw;
+    @media screen and (min-width: 320px) and (max-width: 767px){
+      width: 480px;
       padding: 0 15px;
     }
 
     @media screen and (min-width: 768px) and (max-width: 1200px){
      padding: 0;
-     width: 100vw;
+     width: 768px;
     }
 }
   
@@ -30,7 +30,7 @@ overflow-x: hidden;
   
   .section-number {
     padding-top: 94px;
-    @media screen and (min-width: 480px) and (max-width: 767px){
+    @media screen and (min-width: 320px) and (max-width: 767px){
       padding-top: 60px;
     }
 
@@ -41,13 +41,14 @@ overflow-x: hidden;
   .section4 {
     background-color: var(--background-color-buttom);
     padding-bottom: 94px;
+    width: 100%;
   }
   .border {
     border-bottom: 1px solid #ececec;
   }
   .section--padding-botom {
     padding-bottom: 94px;
-    @media screen and (min-width: 480px) and (max-width: 1200px) {
+    @media screen and (min-width: 320px) and (max-width: 1200px) {
       display: none;
       
     }
@@ -55,7 +56,7 @@ overflow-x: hidden;
   .our-clients {
     padding-bottom: 94px;
     padding-top: 94px;
-    @media screen and (min-width: 480px) and (max-width: 1200px){
+    @media screen and (min-width: 320px) and (max-width: 1200px){
       padding: 0;
       width: 100vw;
       padding-top: 60px;

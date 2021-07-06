@@ -1,7 +1,7 @@
 .header-contact {
     display: flex;
     margin-left: 300px;
-    @media screen and (min-width: 480px) and (max-width: 767px) {
+    @media screen and (min-width: 320px) and (max-width: 767px) {
       display: none;
       
     }
