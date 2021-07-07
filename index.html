@@ -182,8 +182,8 @@
       </section>
 
       <section class="section-number">
-        
-        <ul class="container our-advantages">
+        <div class="container">
+        <ul class=" our-advantages">
           <li class="our-advantages__list">
             <h3 class="our-advantages__our-pluses">Внимание к деталям</h3>
             <p class="our-advantages__tagline">
@@ -213,7 +213,7 @@
             </p>
           </li>
         </ul>
-      
+      </div>
       </section>
       <section class="container section-number section--padding-botom">
         <div>
@@ -262,16 +262,20 @@
           <ul class="technologies">
             <li class="technologies__list">
              
-             
+             <picture class="test_img">
+
+              <source
+              srcset="./images/img1-mobile.jpg 1x,"
+              media="(max-width:767px)"
+
+                />
               <img class="test_img"
-
-
-              srcset="./images/people.jpg 1x, ./images/people2x.jpg 2x"
-                src="./images/people.jpg"
+               src="./images/people.jpg"
                 alt="человек в красной рубашке и очках"
-               
+              
               
               />
+            </picture>
               <div class="people">
                 <h3 class="people__name">Игорь Демьяненко</h3>
                 <p class="people__work">Product Designer</p>
@@ -312,10 +316,20 @@
             </li>
 
             <li class="technologies__list">
-              <img 
-              class="test_img"
-              srcset="./images/img5.jpg 1x, ./images/img5-2.jpg 2x"
-              src="images/img5.jpg" alt="женщина в очках" width="270" />
+              <picture class="test_img">
+
+                <source
+                srcset="./images/img5-mobile.jpg 1x,"
+                media="(max-width:767px)"
+  
+                  />
+                <img class="test_img"
+                 src="./images/img5.jpg"
+                  alt="человек в красной рубашке и очках"
+                  
+                
+                />
+              </picture>
               <div class="people">
                 <h3 class="people__name">Ольга Репина</h3>
                 <p class="people__work">Frontend Developer</p>
@@ -355,12 +369,20 @@
               </ul>
             </li>
             <li class="technologies__list">
-              <img 
-              class="test_img"
-                src="images/img6.jpg"
-                alt="мужчина в белой рубашке"
-                width="270"
-              />
+              <picture class="test_img">
+
+                <source
+                srcset="./images/img6-mobile.jpg 1x,"
+                media="(max-width:767px)"
+  
+                  />
+                <img class="test_img"
+                 src="./images/img6.jpg"
+                  alt="человек в красной рубашке и очках"
+                  
+                
+                />
+              </picture>
               <div class="people">
                 <h3 class="people__name">Николай Тарасов</h3>
                 <p class="people__work">Marketing</p>
@@ -400,13 +422,21 @@
               </ul>
             </li>
             <li class="technologies__list">
-              <img
-              class="test_img"
-              srcset="./images/img7.jpg 1x, ./images/img7_2.jpg 2x"
-                src="images/img7.jpg"
-                alt="мужчина в черной майке"
-                width="270"
-              />
+              <picture class="test_img">
+
+                <source
+                srcset="./images/img7-mobile.jpg 1x,"
+                media="(max-width:767px)"
+  
+                  />
+                <img class="test_img"
+                 src="./images/img7.jpg"
+                  alt="человек в красной рубашке и очках"
+                  
+                
+                
+                />
+              </picture>
               <div class="people">
                 <h3 class="people__name">Михаил Ермаков</h3>
                 <p class="people__work">UI Designer</p>
@@ -512,9 +542,10 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div class="container footer">
-        <div>
+    <footer >
+      <div class="container ">
+        <div class="footer">
+        <div class="flex-mobile-footer">
           <a href="#" class="header-navigation__logo header-navigation__logo--color">
             <span class="header-navigation__web-logo">Web</span>Studio
           </a>
@@ -531,7 +562,7 @@
             </li>
           </ul>
         </div>
-        <div >
+        <div class="flex-mobile-footer">
           <p class="join">ПРИСОЕДИНЯЙТЕСЬ</p>
           <ul class="icon-social-footer">
             <li class="icon-social-footer__list">
@@ -564,7 +595,7 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="flex-mobile-footer flex-mobile_footer">
           <P class="join">ПОДПИШИСЬ НА РАССЫЛКУ</P>
           <div class="subscribe">
           <label for="mail"></label>
@@ -576,6 +607,7 @@
 
 
         </div>
+      </div>
       </div>
     </footer>
     <script src="./modal.js"></script>

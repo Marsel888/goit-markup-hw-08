@@ -30,7 +30,7 @@ letter-spacing: 0.03em;
     margin: 0;
     justify-content: space-between;
     @media screen and (min-width: 320px) and (max-width: 767px){
-      display: flex;
+      
       flex-wrap: wrap;
       width: 100%;
    justify-content: center;
@@ -42,10 +42,18 @@ letter-spacing: 0.03em;
     }
 
     @media screen and (min-width: 768px) and (max-width: 1200px){
+      // flex-wrap: wrap;
+      // max-width: 1000px;
+      // margin-bottom: 60px;
+      // justify-content: center;
+      // margin: 15px;
+      
       flex-wrap: wrap;
-      max-width: 1000px;
-      margin-bottom: 60px;
-      justify-content: center;
+      width: 100%;
+   justify-content: center;
+   margin-bottom: 30px;
+
+
     }
   }
   .our-clients-permanent__client {
@@ -65,8 +73,17 @@ letter-spacing: 0.03em;
     }
 
     @media screen and (min-width: 768px) and (max-width: 1200px){
-      width: 226px;
-      margin: 10px 15px 0 10px;
+      // width: 226px;
+      
+      // margin: 10px 15px 0 10px;
+      flex-basis: calc((100% - 90px) / 3);
+    margin: 0 10px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    
+
+     
     }
     &__svg{
       fill: #afb1b8;
@@ -80,7 +97,12 @@ letter-spacing: 0.03em;
     }
 
         @media screen and (min-width: 768px) and (max-width: 1200px){
-          width: 226px;
+          // width: 226px;
+
+
+          width: 100%;
+          margin: 0;
+        
         }
     }
 
@@ -98,4 +120,11 @@ letter-spacing: 0.03em;
     fill: var(--akcent-color);
     border-color: var(--akcent-color);
   }
+}
+
+
+.img-test{
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
